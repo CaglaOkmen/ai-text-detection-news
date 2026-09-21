@@ -1,0 +1,64 @@
+YAPAY ZEKA METİN TESPİTİ PERFORMANS RAPORU (GENİŞLETİLMİŞ SET)
+===========================================================================
+
+                              Model  Doğruluk (Accuracy)  Kesinlik (Precision)  Duyarlılık (Recall)  F1-Skor  CV_F1_Ort  CV_F1_Std
+     Destek Vektör Makineleri (SVM)               0.7833                0.7996               0.7833   0.7803     0.7067     0.0343
+eXtreme Gradient Boosting (XGBoost)               0.7000                0.7000               0.7000   0.7000     0.6683     0.0248
+            Lojistik Regresyon (LR)               0.7667                0.7778               0.7667   0.7643     0.7197     0.0358
+
+5-Katlı CV Fold Detayları:
+  Destek Vektör Makineleri (SVM): F1:0.7233, F2:0.7083, F3:0.7063, F4:0.7500, F5:0.6457
+  eXtreme Gradient Boosting (XGBoost): F1:0.6571, F2:0.6874, F3:0.6863, F4:0.6863, F5:0.6243
+  Lojistik Regresyon (LR): F1:0.7460, F2:0.7496, F3:0.6661, F4:0.7496, F5:0.6874
+
+------------------------------------------------------------
+DİNAMİK MODEL DOĞRULAMA - İLK 3 METNİN HESAPLANAN SONUÇLARI
+------------------------------------------------------------
+Veri İndeksi: 0 | Sınıfı: İnsan (0)
+Metin Özeti: "Olay, saat 20.00 sıralarında Taşpazar Mahallesi Ebulfez Elçibey Caddesinde meydana geldi. Ahmet İskender Evcil, arkadaşı..."
+
+Hesaplanan Öznitelik Değerleri:
+  - Toplam Kelime                             : 86.0000
+  - Ort. Kelime Uzunluğu                      : 8.1860
+  - Ort. Cümle Uzunluğu                       : 10.7500
+  - Kelime Zenginliği (TTR)                   : 0.9070
+  - Toplam Bağlaç Yoğunluğu                   : 0.1279
+  - Yapısal Kelime Yoğunluğu                  : 0.0930
+  - İsim Yoğunluğu                            : 0.5581
+  - Sayısal Veri Yoğunluğu (NUM)              : 0.0116
+  - Noktalama Yoğunluğu                       : 0.3140
+  - Metin Entropisi (Shannon)                 : 6.2170
+  - Cümle Uzunluğu Standart Sapması           : 2.8035
+---------------------------------------------
+Veri İndeksi: 1 | Sınıfı: Yapay Zeka (1)
+Metin Özeti: "Olay, saat 20.00 sıralarında Taşpazar Mahallesi Ebulfez Elçibey Caddesi'nde yaşandı. Ahmet İskender Evcil, arkadaşıyla k..."
+
+Hesaplanan Öznitelik Değerleri:
+  - Toplam Kelime                             : 78.0000
+  - Ort. Kelime Uzunluğu                      : 8.2692
+  - Ort. Cümle Uzunluğu                       : 13.0000
+  - Kelime Zenginliği (TTR)                   : 0.9231
+  - Toplam Bağlaç Yoğunluğu                   : 0.1026
+  - Yapısal Kelime Yoğunluğu                  : 0.1282
+  - İsim Yoğunluğu                            : 0.5641
+  - Sayısal Veri Yoğunluğu (NUM)              : 0.0128
+  - Noktalama Yoğunluğu                       : 0.2821
+  - Metin Entropisi (Shannon)                 : 6.1316
+  - Cümle Uzunluğu Standart Sapması           : 5.4899
+---------------------------------------------
+Veri İndeksi: 2 | Sınıfı: İnsan (0)
+Metin Özeti: "Aliağa İlçe Emniyet Müdürlüğü ekipleri, ilçede bulunan bir çiftlikte yasa dışı horoz dövüşü organizasyonu düzenlendiği y..."
+
+Hesaplanan Öznitelik Değerleri:
+  - Toplam Kelime                             : 97.0000
+  - Ort. Kelime Uzunluğu                      : 8.0000
+  - Ort. Cümle Uzunluğu                       : 32.3333
+  - Kelime Zenginliği (TTR)                   : 0.8247
+  - Toplam Bağlaç Yoğunluğu                   : 0.0515
+  - Yapısal Kelime Yoğunluğu                  : 0.1134
+  - İsim Yoğunluğu                            : 0.5979
+  - Sayısal Veri Yoğunluğu (NUM)              : 0.0825
+  - Noktalama Yoğunluğu                       : 0.1134
+  - Metin Entropisi (Shannon)                 : 6.2338
+  - Cümle Uzunluğu Standart Sapması           : 19.3964
+---------------------------------------------
